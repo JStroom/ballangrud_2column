@@ -1,0 +1,448 @@
+	@font-face {  
+		font-family: "TheSerif Extra Light Italic";
+		src: url(fonts/theserif-extralightitalic-webfont.eot); /* IE */
+		src: local("TheSerif Extra Light Italic"), url(fonts/TheSerif-ExtraLightItalic.ttf) format("truetype"); /* the good browsers */
+	}
+
+
+    body, html {
+        background-color: #CCC;
+        margin: 0px;
+        font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+
+    }
+
+    #wrap {
+        margin-top: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 1020px;
+        background: white;
+    }
+
+    #header {
+        margin-top: 0px;
+        width: 1020px;
+        height: 350px;
+    }
+
+    #nav {      
+        height: 40px;
+        border-bottom: 1px solid #999;      
+    }
+
+    #main{
+        width: 620px;
+        height: 100%;
+        float: left;
+        background:white;
+    }
+
+    #sidebar{
+        width: 400px;
+        float: right;
+    }
+    
+
+
+    #sidecontent{
+     	margin-right: 5px;
+    	margin-left: 5px;
+    }
+
+    #footer{
+    	background-repeat: no-repeat;
+    	font-style: italic;
+    	clear:both;
+    	height: 136px;
+  		background-image:url('images/footer.png');
+  		margin-bottom: 0px;
+    }
+    
+	#footer2{
+		padding: 0px;	
+		margin-bottom: 30px;
+		background-color: #CCC;
+		color: white;
+	}
+	
+	.nomargin{
+			margin: 0px;
+	}
+
+
+    #nav_p {
+        font-size: 20px;
+        color: #4B8DB5;
+        margin:0;
+        padding: 9px;
+    }
+
+    .storytitle {
+        margin-bottom: 10px;
+        text-decoration: none;
+        color: #4B8DB5;
+        font-size: 30px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 300;
+    }
+    
+    .ul_sidebar {
+        list-style-image:none;
+        list-style-position:outside;
+        list-style-type:none;
+        margin-bottom: 20px;
+    }
+    
+    li.widget {
+    	margin-bottom: 20px;
+    }
+    
+    .post {
+    	font-size: 90%;	    
+    	margin-right: 5px;
+    	margin-left: 20px;
+    	margin-bottom: 40px;
+	    
+    }
+    
+    pre {
+        font-family: Helvetica, Arial, "Lucida Grande", sans-serif;	    
+    
+    }
+
+	.storycontent {
+		margin-bottom: 15px;
+	}
+	
+	
+	.alignright {
+        float: right;
+        
+	}
+
+	.alignleft {
+        float: left;
+	} 
+	
+	img.centered {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+	}
+
+	img.alignright {
+        padding: 4px;
+        margin: 0 0 2px 7px;
+        display: inline;
+	}
+
+	img.alignleft {
+        padding: 4px;
+        margin: 0 7px 2px 0;
+        display: inline;
+	}	
+	
+
+    .meta {
+    	font-size: small;
+    	clear: both;
+    }
+    
+    
+    .social{        
+    	display: block;        
+    	margin-bottom: 30px;  
+    	padding-top: 3px;
+    	padding-bottom: 10px;      
+    	height: 15px;
+      	font-size: small;
+      	border-bottom: 1px dotted #989898;
+
+    }
+    
+    #twitter {
+    	margin-left:20px;
+    	margin-right: 20px;
+    	padding-bottom: 20px;    
+    	border-bottom: 1px dotted #D05D2A;
+    }
+
+	#teamdimphy {
+	   	margin-top: 30px;
+    	margin-left: 20px;
+    	margin-bottom: 30px;
+    }
+
+    .fb-like{
+    	display: inline-block;
+    	vertical-align: top;
+    }
+
+    
+	.social_a {
+		text-decoration: none;
+	}
+	
+
+	
+    a.share_facebook {
+        background: url(http://grainedit.com/wp-content/plugins/facebook_share_icon.gif) no-repeat 0% 50%;
+        padding-left: 18px;
+        margin-left: 5px;
+    }
+    
+    #lid_worden {
+	    font-family: "TheSerif Extra Light Italic", Georgia !important;
+		font-weight: normal;
+		font-size: 24px;
+		margin: 6px 0 0 0;
+		line-height: 1em;
+    	padding-bottom: 10px;
+    	padding-top: 10px;
+    	margin-left: 20px;
+    	margin-bottom: 0px;
+    	margin-right: 20px;
+    	margin-top: 0px;
+    	background: #999;
+        text-align: center;
+        color: white;
+    }
+    
+    p.lid_worden_p {
+    	margin: 10px;
+    }
+    
+    
+    a {
+        text-decoration: none;
+        color: #4B8DB5;
+    }
+    
+    ul.eo-events{
+    	font-size: 12px;
+        list-style-image:none;
+        list-style-position:outside;
+        list-style-type:none;
+    }
+    
+
+
+	td.today {
+	
+		background-color: lime;
+	
+	}
+	
+	.aec-eventlist {
+		-webkit-padding-start: 0px
+	}
+	
+	.fc-event-title {
+        color: #4B8DB5;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 300;
+	}
+	
+	#site_view {
+    	margin-left:20px;
+    	margin-right: 20px;
+    	padding-bottom: 10px;
+    	border-bottom: 1px dotted #D05D2A;
+	}
+	
+    .twitter {
+    	display: inline-block;
+       	vertical-align: top;
+	}
+	
+	#twitter {
+		margin-left: 20px;
+	}
+	
+    #facebook_sidebar {
+		margin-left: 20px;
+	   	margin-right: 20px;
+    	padding-bottom: 20px;	   	
+    	border-bottom: 1px dotted #D05D2A;			
+    }
+	
+	
+	#sub_nav {
+		margin-top: 0px;
+		margin-bottom: 0px;
+		font-size: 14px;
+		padding: 0px;
+		padding-left: 20px;
+	}
+    
+    .site_overzicht{
+	    margin-right: 20px;
+	    color: #D05D2A;
+		border-bottom: 1px solid #D05D2A;
+		font-family: "kulturista-web-1","kulturista-web-2",Serif;
+		font: 16px/1.4 "myriad-pro-1","myriad-pro-2","Lucida Grande",Sans-Serif;
+		font-size: 14px;
+		padding: 0 0 5px 0;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+		font-weight: 600;
+    }
+    
+    #agenda_view {
+    	margin-left: 20px;
+    	margin-right: 20px;
+    	padding-bottom: 20px;
+    	border-bottom: 1px dotted #D05D2A;
+
+    }
+    
+	.tweet_top {
+    	background-position: 15px;
+    	width: 315px;
+    	height: 21px;
+    	background-repeat: no-repeat;
+    	background-image: url(./images/tweet_header.png);
+	}    
+
+	.tweet_bottom {
+	  	background-position: 15px;
+    	width: 315px;
+    	height: 20px;
+    	background-repeat: no-repeat;
+    	background-image: url(./images/tweet_bottom.png);
+	}    
+
+    
+    .tweet {
+    	margin-top: 0px;
+    	background-position: 15px;
+    	background-repeat: repeat-y;
+    	background-image: url(./images/tweet_back.png);
+        width: 315px;
+    }
+    
+    
+    .tweet_list {
+       	margin-top: 0px;
+       	margin-bottom: 0px;
+       	padding-bottom: 10px;
+    	font-size: 75%;
+    	margin-right: 20px;
+    	list-style-image:none;
+        list-style-position:outside;
+        list-style-type:none;
+    }
+    
+    .tweet_odd, .tweet_even {
+    
+	    border-bottom: 1px dotted #989898;
+	    margin-bottom: 0px;
+	    padding-bottom: 5px;
+	    padding-top: 5px;
+    
+    }
+    
+    .tweet_birdie {
+    	margin-right: 20px;
+    	border-bottom: 1px dotted #D05D2A;
+    	padding-bottom: 10px;
+    }
+    
+    
+    h3.sidebar {
+    	margin-top: 20px;
+    	margin-bottom: 0px;
+	    color: #D05D2A;
+		font-weight: normal;
+		font-family: "TheSerif Extra Light Italic", Georgia !important;
+		font-size: 24px;    	
+    }
+    
+    h4.sidebar {
+    	margin-top: 0px;
+    	margin-bottom: 10px;
+	    color: #D05D2A;
+		font-size: 20px; 	
+    }
+    
+	.gce-location {
+    	color: #000 !important;
+    }
+    
+    .gce-list {
+    	-webkit-padding-start: 0px;
+        list-style-image:none;
+        list-style-position:outside;
+        list-style-type:none;
+        font-size: 90%;
+		background-color: #FFF;
+    }
+    
+    .gce-feed-1 {
+    	margin-bottom: 10px;
+    	font-style: normal;
+    }
+    
+    
+    
+    .gce-page-list, .gce-tooltip-event {
+    	color: #000 !important;
+    	background-color: #FFF !important;
+    }
+    
+    
+    .gce-change-month {
+    	font-size: 120%;
+    }
+    
+    .gce-list-title {
+    	font-weight: normal !important;
+    	white-space: normal;
+    }
+    
+    .gce-list-event {
+    	white-space: normal;
+    	margin: 0px;
+    	background-color: #FFF !important;
+
+    }
+    
+    .gce-page-grid {
+    	padding-left: 50px;
+    	padding-right: 50px;
+    }
+    
+    .gce-page-grid .gce-calendar .gce-day-number{ /* Day number span */
+    	font-size:140% !important;
+	}
+	
+	.gce-day-past {
+		font-weight: 100;
+	}
+	
+	.gce-day-future{
+		font-weight: 300;
+	}
+	
+	.gce-has-events {
+		font-weight: 600;
+		background-color: #4B8DB5;
+		color: white ;
+	}
+	
+	.gce-next, .gce-past, .gce-month-title {
+		font-size: 140%;
+	}
+	
+	
+	
+	
+	
+	
+    
+    
+    
